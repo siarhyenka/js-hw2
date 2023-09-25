@@ -130,21 +130,21 @@ switch(true) {
 let days = prompt('введите количество дней');
 
 if (days >= 365) {
-    years = days / 365;
+    let years = days / 365;
     console.log(years);
 } else {
     console.log('меньше года');
 }
 
 if (days >= 31) {
-    mounths = days / 31;
+    let mounths = days / 31;
     console.log(mounths);
 } else {
     console.log('меньше месяца')
 }
 
 if (days >= 7) {
-    weeks = days / 7;
+    let weeks = days / 7;
     console.log(weeks);
 } else {
     console.log('меньше недели');
